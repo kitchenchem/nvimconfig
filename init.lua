@@ -1,0 +1,4 @@
+require("custom")
+print("guuu")
+
+
