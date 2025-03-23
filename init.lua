@@ -1,4 +1,3 @@
-require("custom")
-print("guuu")
+require("nick")
 
 
