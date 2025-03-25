@@ -34,6 +34,7 @@ return {
                 "lua_ls",
                 "rust_analyzer",
                 "gopls",
+                "clangd"
             },
             handlers = {
                 function(server_name) -- default handler (optional)
@@ -58,6 +59,7 @@ return {
                     vim.g.zig_fmt_autosave = 0
 
                 end,
+
                 ["lua_ls"] = function()
                     local lspconfig = require("lspconfig")
                     lspconfig.lua_ls.setup {

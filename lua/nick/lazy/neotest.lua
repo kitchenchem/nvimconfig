@@ -28,6 +28,7 @@ return {
             require("neotest").summary.toggle()
         end, { desc = "Debug: Summary Toggle" })
 
+
         vim.keymap.set("n", "<leader>ts", function()
             require("neotest").run.run({
                 suite = true,
